@@ -1,0 +1,39 @@
+#####################################################################################
+#                                      Plugin KwWarp                                #
+#                              E-mail: kewilleen@outlook.com                        #
+#####################################################################################
+Warp:
+  #Configuração do MySQL
+  MySQL:
+    Ativar: false
+    IP: 'localhost'
+    Database: 'devkewi'
+    Usuario: 'devkewi'
+    Senha: '123'
+  #Verificar atualizações
+  Check_Update: true
+  #Para o jogador poder se teleportar utilize a permissão: kwwarp.warp.(nome da warp)
+  #Permissao para burlar o delay: kwwarp.vip
+  #Permissão para moderadores poderem setar a warp/deletar/ver as warps
+  Permissao: "kwwarp.mod"
+  #Permissão para apenas ver as warps setadas
+  Permissao_Ver: "kwwarp.ver"
+  Delay: 3
+  #Configuração de algumas mensagens
+  Mensagens:
+    Utilize: "&cDesculpe, mas falta o nome da warp!"
+    Sem_Warp: "&cDesculpe, mas esta warp, não existe!"
+    Sem_Permissao_Warp: "&cDesculpe, mas você não tem permissão de se teleportar para a warp {warp}!"
+    Cancelado: "&cVocê não pode se mexer para se teleportar para a warp! Teleporte cancelado."
+    Aguarde: "&6Aguarde &e{tempo} segundo(s)."
+    Teleportado: "&bVocê foi teleportado para a warp {warp}!"
+    Sem_Permissao: "&cDesculpe, mas você não tem permissão para utilizar este comando!"
+    Warps:
+      Sem_Warp: "&cDesculpe, mas nenhuma warp foi setada!"
+      Setada: "&b[Warp] {warp} &3Setada com sucesso!"
+      Setadas: "&b[Warps] &3{warps}"
+      Removida: "&b[Warps] &3A warp &b{warp}&3 foi removida!"
+Mensagens:
+  Global:
+    Ativar: true
+    Mensagem: "&aO jogador &l{p} &afoi teleportado para a warp &l{warp}&a."

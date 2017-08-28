@@ -1,0 +1,23 @@
+name: KwWarp
+main: me.kewi.KwWarp
+version: 0.2
+author: [Kewilleen]
+webiste: http://devkewi.esy.es
+description: Plugin de warp surrealista.
+
+commands:
+  warp:
+    description: Se teleportar para uma warp.
+  warps:
+    description: Ver todas as warps setadas.
+  setwarp:
+    description: Setar uma nova warp.
+  delwarp:
+    description: Remover uma warp existente.
+  kwwarp:
+    description: Recarregar as configuracoes
+permissions:
+  kwwarp.admin:
+    description: Permissao para administradores.
+  kwwarp.vip:
+    description: Permissao para burlar o delay.
