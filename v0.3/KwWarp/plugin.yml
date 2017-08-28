@@ -1,0 +1,21 @@
+name: KwWarp
+main: me.kewi.KwWarp
+version: 0.3
+author: Kewilleen
+website: www.devkewi.esy.es
+description: Plugin de warp com API aos desenvolvedores.
+
+commands:
+  warp:
+    description: Demonstrar a forma correta de utilizacao do comando.
+  warps:
+    description: Exibir todas as warps existentes.
+  setwarp:
+    description: Criar uma warp.
+  delwarp:
+    description: Remover uma warp existente.
+  kwwarp:
+    description: Recarregar as configuracoes.
+permissions:
+  kwwarp.*:
+    description: Executar qualquer comando, tanto administrativo quando jogador.

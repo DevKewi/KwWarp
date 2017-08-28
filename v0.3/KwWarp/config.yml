@@ -1,0 +1,64 @@
+MySQL:
+  Ativar: false
+  Host: "localhost"
+  Database: "devkewi"
+  Usuario: "devkewi"
+  Senha: "123"
+Warp:
+  Update: true
+  Utilize: "&cDesculpe, mas utilize /warp (warp)"
+  Inexistente: "&cDesculpe, mas nao ha nenhuma warp com este nome!"
+  Permissao: "kwwarp.warp.{warp}"
+  #{warp} seria o nome da warp, entao para dar a permissao
+  #Se exitir a warp vip o nome na permissao sera
+  #kwwarp.warp.vip
+  Sem_Permissao: "&cDesculpe, mas voce nao tem permissao para teleporta-se para a warp {warp}!"
+  Delay:
+    #Com a permissao abaixo, sera possivel burlar o delay para teleporta-se a warp.
+    Permissao: "kwwarp.delay.vip"
+    Tempo: 3
+    #{tempo} ira retornar em segundos, minutos, qualquer forma:
+    #Aguarde 3 segundos
+    Aguarde: "&eAguarde &6{tempo}"
+    #Se numeros for false, entao nao sera: Aguarde 3 segundos, e sim:
+    #Aguarde tres segundos, alteracao de numeros para verbos
+    Numeros: true
+    Comandos:
+      Bloquear: true
+      Liberados:
+        - '/g'
+      Bloqueado: "&cDesculpe, mas voce nao pode digitar o comando {cmd} enquanto se teleporta para a warp {warp}!"
+  Teleportado: "&aVoce foi teleportado para a warp {warp}"
+  Saiu: "&aVoce saiu da warp {warp}!"
+  Setar:
+    Permissao: "kwwarp.admin.set"
+    Sem_Permissao: "&cDesculpe, mas voce nao tem permissao para executar este comando!"
+    #Configuracao de area
+    Item:
+      ID: "280"
+      Slot: 0
+    Use: "&aCrie as marcacoes com /setwarp e depois sete o nome da warp usando /setwarp (nome) (id) (slot)!"
+    Utilize: "&cDesculpe, mas voce deve fazer as marcacoes primeiro antes de denominar o nome da warp!"
+    Pos:
+      Um: "&cDesculpe, mas a primeira marcacao nao foi setada!"
+      Dois: "&cDesculpe, mas a segunda marcacao nao foi setada!"
+      Setou: "&aVoce setou com sucesso as marcacoes e o local onde voce esta, sera o local onde os jogadores se 
+      teleportarao!"
+      Setado:
+        Um: "&aPrimeiro local setado!"
+        Dois: "&aSegundo local setado!"
+    IDs:
+      ID: "&cDesculpe, mas o ID {id} nao existe!"
+      Data: "&cDesculpe, mas a data do item nao existe!"
+    Slot: "&cDesculpe, mas o slot deve ser numero!"
+    Tamanho: "&cDesculpe, mas o slot nao deve ser menor que zero ou maior que o tamanho do bau da /warps!"
+  Remover:
+    Permissao: "kwwarp.admin.del"
+    Sem_Permissao: "&cDesculpe, mas voce nao tem permissao para executar este comando!"
+    Utilize: "&cDesculpe, mas utilize /delwarp (warp)!"
+    Inexistente: "&cDesculpe, mas esta warp nao existe!"
+    Removeu: "&aVoce removeu a warp {warp}"
+  Warps:
+    GUI:
+      Tamanho: 45
+      Nome: "&a[Warps]"
