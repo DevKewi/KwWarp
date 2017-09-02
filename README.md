@@ -1,5 +1,5 @@
 # KwWarp
-> Código fonte livre do plugin KwWarp, o plugin há API para desenvolvedores a partir da versão 0.3
+> Código fonte livre do plugin KwWarp, o plugin há API para desenvolvedores a partir da versão 0.4
 
 Faça o download [clicando aqui](http://devkewi.esy.es/plugins/kwwarp/)
 
