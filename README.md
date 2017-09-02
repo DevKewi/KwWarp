@@ -1,5 +1,5 @@
 # KwWarp
-> Código fonte livre do plugin KwWarp, o plugin há API para desenvolvedores a partir da versão 0.4
+> Código fonte livre do plugin KwWarp, o plugin há API para desenvolvedores a partir da versão 0.3
 
 Faça o download [clicando aqui](http://devkewi.esy.es/plugins/kwwarp/)
 
@@ -79,7 +79,7 @@ e.getTempo(); //Pega o tempo restante para se teleporta a uma determinada warp
 				if (x == 0)
 					cancel();
 				x--;
-				p.sendMessage("Você está se teleportando para a warp " + e.getWarpName() + " em " +          e.getTempo());
+				p.sendMessage("Você está se teleportando para a warp " + e.getWarpName() + " em " + e.getTempo());
 				e.setCanceled(true);
 			}
 		}.runTaskTimer(this, 1L, 1 * 20L);
